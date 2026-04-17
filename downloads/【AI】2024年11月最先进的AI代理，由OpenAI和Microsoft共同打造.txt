@@ -1,0 +1,124 @@
+﻿There was a recent demo at Microsoft's Ignite event where they actually showcase a lot more about AI,
+but this was a kind of agent that's a little bit different.
+Now, before I show you guys this crazy demo,
+there was actually a minute where Sachin and Delta actually talks about this Azure AI agent service.
+Now, this is something that I don't think the average person is of course going to use,
+but it is worthwhile understanding exactly what this is so that you can understand
+the coming changes in the AI ecosystem and how they actually impact the agents
+that you might want to build in the future or the ones that you're interacting with.
+Right. Our new agent service helps developers build,
+deploy and scale AI apps that automate business processes.
+I showed you before how you can use Copilot Studio to build agents just with few clicks,
+but as developers, you want to co-host approach to building an agent
+and that's what the agent service really enables.
+You can build agents that are grounded in data wherever it lives,
+public data from the web, enterprise data in Microsoft 365 SharePoint,
+or you can leverage even Fabrics One Lake to unify your data across all of your clouds.
+And these agents then can take actions, right?
+So you want to be able to give action space to these agents and you can take that,
+you know, 1,200 plus connectors we have in logic apps that we have been using
+as you know, in our app services and you can connect it to the agent runtime.
+Okay, so this is where we actually do get to take a look at this demo.
+And what I want to point out with you guys here is that this demo is actually a lot different
+than the usual ones because this is where we get to see the AI agent go around
+and do different things like the guy says, it's just not in that contained box.
+It's actually able to truly engage with you as a person.
+And by the way, everything I'm going to show you is actually live, okay?
+In this demo, I will use GPT 40, our new real-time audio model GPT 40 audio,
+the real-time API, and image processing models all seamlessly integrated
+into the experience I'm going to show you in a little bit.
+Foundry offers over 1,800 models for you to choose from.
+It's pretty amazing.
+Once I've chosen my model, I can use Azure AI agent service,
+call APIs when needed, and perform actions with function calling.
+In this example, I have a main customer facing agent that is then delegating tasks
+to other agents to understand what the customer wants,
+what their purchase history is, and to recommend products based on multi-modal conversation
+with the customer.
+These agents can run micro-intelligent tasks to provide a cohesive, personalized experience.
+These agents can also be grounded to a variety of data sources, including fabric.
+It's pretty awesome.
+Tively.
+Let me show you how all of these capabilities I just showed can create
+a hyper-personalized customer service experience that solves real world problems
+in ways that we couldn't even have an imagined a year ago.
+Okay, so I'm going camping, and my friend sent me this picture.
+And I want to make sure I have the right gear for a winter camping adventure,
+so I started a chat.
+Now, notice this is something that's now routine, AI interacting with me, with chat and images.
+But I want to chat's great, and we all love chat, but what if we can break out of the actual
+chat box and do a more personalized experience?
+Because it feels like AI today, it feels like it's all just inside of your chat box.
+It feels like there's a lot of co-pilots and stuff, but what if we could do a little bit
+more and maybe make it a little more personal, hopefully with a phone call?
+Hello, is somebody there?
+Hi, Seth.
+Yes, I'm here.
+I see you're getting ready for a winter camping trip.
+Can I send the Concierge page to your browser to provide more details?
+You certainly can.
+Send me to the Concierge page, please.
+Great.
+Sending you to the Concierge page now, you'll find more detailed guidance there for your
+winter camping trip.
+So this is awesome.
+What do you recommend for this camping trip?
+Super exciting that you're gearing up for a camping trip.
+Since you've already got the Skyview 2 person tent, let's build on that.
+Here are a few recommendations.
+First, mountain dreams, leaping.
+So this is all great.
+Is there a way that you can ride it up for me so that I can see it, maybe with pictures?
+Absolutely.
+So right now, what it's doing, it's going to take a couple of seconds to write an entire
+article for me, just for me.
+And you're probably wondering, well, hey, it's taking a couple of seconds.
+When's the last time you wrote a personalized article for someone that called you in 10 seconds?
+Seth, I'll put together a personalized recommendation article with all these products and their details,
+complete with pictures.
+Give me a moment and it should pop up on your screen shortly.
+You already did it.
+This is amazing.
+Everything here.
+Fantastic to hear, Seth.
+I'm glad you love the recommendations.
+Enjoy your camping trip.
+If you need any more help, feel free to reach out.
+Have an awesome adventure out there.
+How about them, apples?
+And remember, like, I'm serious.
+This was running right here because I wanted to show you something real.
+This isn't a peek into the future.
+Now, with that demo, I think that demo was actually really cool because it shows us how these
+agents are going to be in the future and how they're going to be able to do certain things
+that allow us to get a much better customer experience.
+I don't know about you guys, but I've had several different occasions where customer service
+was just completely poor.
+But having an agent right there that can do things on my screen, that is going to be immeasurable
+in terms of the value.
+Now, do you guys remember how a couple of days ago, I made a video talking about OpenAI and
+how they were working on several related agent research projects, and basically the fact
+that with these research projects, apparently there is one nearest completion that is going
+to be a general purpose tool that executes tasks in a web browser.
+So I think this is going to be something that is super, super fascinating because as you
+all know, agent is something that everyone is really eager to use, especially since we've
+been teased by some armament stating that this is the next breakthrough.
+Now, for those of you wondering about which date this is going to actually be available
+in terms of the advanced AI agents and some kind of AI agents, we do know that OpenAI leadership
+announced plans to release this tool in January as a research preview, and of course, through
+the company's API for developers.
+So it seems like during the January time, we're probably going to get a lot more AI agent demos
+from potentially a lot of developers, and we're going to be able to see what these kinds
+of tools are able to do when not restricted to OpenAI scope.
+And the reason that that is really important is because developers take products and essentially
+build on them in a way that is completely different that the initial creator didn't intend
+to like, there are a variety of different consumer applications and consumer products out there
+that the creators of chat GPT just couldn't have fathomed themselves.
+So it'll be really interesting to see what developers managed to do in January, and also
+what I'm really excited for is OpenAI's computer agent because it was also very recently that
+they announced they were going to be working on an agent called the operator.
+So I'm actually wondering what kind of things this agent is going to be able to do.
+And I will definitely be experimenting with the Claude computer use to be able to see if
+I can get as much as I can out of that agent as possible so that when the OpenAI agent rolls
+around, I'll be able to use that one as much as possible.
+So with that being said, if you guys...

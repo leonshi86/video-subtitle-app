@@ -1,0 +1,495 @@
+﻿1
+00:00:00,000 --> 00:00:05,560
+There was a recent demo at Microsoft's Ignite event where they actually showcase a lot more about AI,
+
+2
+00:00:05,560 --> 00:00:09,360
+but this was a kind of agent that's a little bit different.
+
+3
+00:00:09,360 --> 00:00:12,100
+Now, before I show you guys this crazy demo,
+
+4
+00:00:12,100 --> 00:00:17,960
+there was actually a minute where Sachin and Delta actually talks about this Azure AI agent service.
+
+5
+00:00:17,960 --> 00:00:22,680
+Now, this is something that I don't think the average person is of course going to use,
+
+6
+00:00:22,680 --> 00:00:27,360
+but it is worthwhile understanding exactly what this is so that you can understand
+
+7
+00:00:27,360 --> 00:00:31,920
+the coming changes in the AI ecosystem and how they actually impact the agents
+
+8
+00:00:31,920 --> 00:00:35,200
+that you might want to build in the future or the ones that you're interacting with.
+
+9
+00:00:35,200 --> 00:00:40,360
+Right. Our new agent service helps developers build,
+
+10
+00:00:40,360 --> 00:00:45,360
+deploy and scale AI apps that automate business processes.
+
+11
+00:00:45,360 --> 00:00:51,040
+I showed you before how you can use Copilot Studio to build agents just with few clicks,
+
+12
+00:00:51,040 --> 00:00:55,320
+but as developers, you want to co-host approach to building an agent
+
+13
+00:00:55,320 --> 00:00:58,520
+and that's what the agent service really enables.
+
+14
+00:00:58,520 --> 00:01:02,720
+You can build agents that are grounded in data wherever it lives,
+
+15
+00:01:02,720 --> 00:01:08,400
+public data from the web, enterprise data in Microsoft 365 SharePoint,
+
+16
+00:01:08,400 --> 00:01:14,320
+or you can leverage even Fabrics One Lake to unify your data across all of your clouds.
+
+17
+00:01:14,320 --> 00:01:17,760
+And these agents then can take actions, right?
+
+18
+00:01:17,760 --> 00:01:23,200
+So you want to be able to give action space to these agents and you can take that,
+
+19
+00:01:23,200 --> 00:01:28,520
+you know, 1,200 plus connectors we have in logic apps that we have been using
+
+20
+00:01:28,520 --> 00:01:32,760
+as you know, in our app services and you can connect it to the agent runtime.
+
+21
+00:01:32,760 --> 00:01:36,160
+Okay, so this is where we actually do get to take a look at this demo.
+
+22
+00:01:36,160 --> 00:01:41,400
+And what I want to point out with you guys here is that this demo is actually a lot different
+
+23
+00:01:41,400 --> 00:01:45,080
+than the usual ones because this is where we get to see the AI agent go around
+
+24
+00:01:45,080 --> 00:01:48,680
+and do different things like the guy says, it's just not in that contained box.
+
+25
+00:01:48,720 --> 00:01:52,040
+It's actually able to truly engage with you as a person.
+
+26
+00:01:52,040 --> 00:01:57,300
+And by the way, everything I'm going to show you is actually live, okay?
+
+27
+00:01:57,300 --> 00:02:02,900
+In this demo, I will use GPT 40, our new real-time audio model GPT 40 audio,
+
+28
+00:02:02,900 --> 00:02:07,580
+the real-time API, and image processing models all seamlessly integrated
+
+29
+00:02:07,580 --> 00:02:10,220
+into the experience I'm going to show you in a little bit.
+
+30
+00:02:10,220 --> 00:02:14,260
+Foundry offers over 1,800 models for you to choose from.
+
+31
+00:02:14,260 --> 00:02:15,780
+It's pretty amazing.
+
+32
+00:02:15,820 --> 00:02:20,020
+Once I've chosen my model, I can use Azure AI agent service,
+
+33
+00:02:20,020 --> 00:02:23,700
+call APIs when needed, and perform actions with function calling.
+
+34
+00:02:23,700 --> 00:02:28,420
+In this example, I have a main customer facing agent that is then delegating tasks
+
+35
+00:02:28,420 --> 00:02:31,980
+to other agents to understand what the customer wants,
+
+36
+00:02:31,980 --> 00:02:37,020
+what their purchase history is, and to recommend products based on multi-modal conversation
+
+37
+00:02:37,020 --> 00:02:38,300
+with the customer.
+
+38
+00:02:38,300 --> 00:02:44,980
+These agents can run micro-intelligent tasks to provide a cohesive, personalized experience.
+
+39
+00:02:44,980 --> 00:02:51,180
+These agents can also be grounded to a variety of data sources, including fabric.
+
+40
+00:02:51,180 --> 00:02:52,710
+It's pretty awesome.
+
+41
+00:02:52,710 --> 00:02:53,630
+Tively.
+
+42
+00:02:53,630 --> 00:02:57,790
+Let me show you how all of these capabilities I just showed can create
+
+43
+00:02:57,790 --> 00:03:03,070
+a hyper-personalized customer service experience that solves real world problems
+
+44
+00:03:03,070 --> 00:03:06,310
+in ways that we couldn't even have an imagined a year ago.
+
+45
+00:03:06,310 --> 00:03:11,200
+Okay, so I'm going camping, and my friend sent me this picture.
+
+46
+00:03:11,200 --> 00:03:14,440
+And I want to make sure I have the right gear for a winter camping adventure,
+
+47
+00:03:14,440 --> 00:03:15,440
+so I started a chat.
+
+48
+00:03:15,440 --> 00:03:21,720
+Now, notice this is something that's now routine, AI interacting with me, with chat and images.
+
+49
+00:03:21,720 --> 00:03:30,170
+But I want to chat's great, and we all love chat, but what if we can break out of the actual
+
+50
+00:03:30,170 --> 00:03:34,170
+chat box and do a more personalized experience?
+
+51
+00:03:34,170 --> 00:03:41,010
+Because it feels like AI today, it feels like it's all just inside of your chat box.
+
+52
+00:03:41,010 --> 00:03:45,450
+It feels like there's a lot of co-pilots and stuff, but what if we could do a little bit
+
+53
+00:03:45,450 --> 00:03:53,580
+more and maybe make it a little more personal, hopefully with a phone call?
+
+54
+00:03:53,580 --> 00:03:55,380
+Hello, is somebody there?
+
+55
+00:03:55,380 --> 00:03:58,850
+Hi, Seth.
+
+56
+00:03:58,850 --> 00:03:59,850
+Yes, I'm here.
+
+57
+00:03:59,850 --> 00:04:02,610
+I see you're getting ready for a winter camping trip.
+
+58
+00:04:02,610 --> 00:04:06,620
+Can I send the Concierge page to your browser to provide more details?
+
+59
+00:04:06,620 --> 00:04:07,940
+You certainly can.
+
+60
+00:04:07,940 --> 00:04:10,660
+Send me to the Concierge page, please.
+
+61
+00:04:10,660 --> 00:04:12,780
+Great.
+
+62
+00:04:17,700 --> 00:04:21,780
+Sending you to the Concierge page now, you'll find more detailed guidance there for your
+
+63
+00:04:21,780 --> 00:04:23,940
+winter camping trip.
+
+64
+00:04:23,940 --> 00:04:24,940
+So this is awesome.
+
+65
+00:04:24,940 --> 00:04:30,660
+What do you recommend for this camping trip?
+
+66
+00:04:30,660 --> 00:04:33,780
+Super exciting that you're gearing up for a camping trip.
+
+67
+00:04:33,780 --> 00:04:37,780
+Since you've already got the Skyview 2 person tent, let's build on that.
+
+68
+00:04:37,780 --> 00:04:39,620
+Here are a few recommendations.
+
+69
+00:04:39,620 --> 00:04:40,980
+First, mountain dreams, leaping.
+
+70
+00:04:40,980 --> 00:04:41,980
+So this is all great.
+
+71
+00:04:41,980 --> 00:04:48,340
+Is there a way that you can ride it up for me so that I can see it, maybe with pictures?
+
+72
+00:04:48,340 --> 00:04:50,960
+Absolutely.
+
+73
+00:04:50,960 --> 00:04:57,240
+So right now, what it's doing, it's going to take a couple of seconds to write an entire
+
+74
+00:04:57,240 --> 00:04:59,200
+article for me, just for me.
+
+75
+00:04:59,200 --> 00:05:02,360
+And you're probably wondering, well, hey, it's taking a couple of seconds.
+
+76
+00:05:02,360 --> 00:05:07,400
+When's the last time you wrote a personalized article for someone that called you in 10 seconds?
+
+77
+00:05:07,400 --> 00:05:13,520
+Seth, I'll put together a personalized recommendation article with all these products and their details,
+
+78
+00:05:13,520 --> 00:05:15,040
+complete with pictures.
+
+79
+00:05:15,040 --> 00:05:18,240
+Give me a moment and it should pop up on your screen shortly.
+
+80
+00:05:18,240 --> 00:05:19,240
+You already did it.
+
+81
+00:05:19,240 --> 00:05:20,240
+This is amazing.
+
+82
+00:05:20,320 --> 00:05:23,280
+Everything here.
+
+83
+00:05:23,280 --> 00:05:24,960
+Fantastic to hear, Seth.
+
+84
+00:05:24,960 --> 00:05:27,360
+I'm glad you love the recommendations.
+
+85
+00:05:27,360 --> 00:05:28,960
+Enjoy your camping trip.
+
+86
+00:05:28,960 --> 00:05:32,040
+If you need any more help, feel free to reach out.
+
+87
+00:05:32,040 --> 00:05:34,570
+Have an awesome adventure out there.
+
+88
+00:05:34,570 --> 00:05:41,230
+How about them, apples?
+
+89
+00:05:41,230 --> 00:05:43,150
+And remember, like, I'm serious.
+
+90
+00:05:43,150 --> 00:05:47,030
+This was running right here because I wanted to show you something real.
+
+91
+00:05:47,030 --> 00:05:48,950
+This isn't a peek into the future.
+
+92
+00:05:48,950 --> 00:05:54,030
+Now, with that demo, I think that demo was actually really cool because it shows us how these
+
+93
+00:05:54,030 --> 00:05:58,830
+agents are going to be in the future and how they're going to be able to do certain things
+
+94
+00:05:58,830 --> 00:06:02,030
+that allow us to get a much better customer experience.
+
+95
+00:06:02,030 --> 00:06:06,910
+I don't know about you guys, but I've had several different occasions where customer service
+
+96
+00:06:06,910 --> 00:06:08,870
+was just completely poor.
+
+97
+00:06:08,870 --> 00:06:13,230
+But having an agent right there that can do things on my screen, that is going to be immeasurable
+
+98
+00:06:13,230 --> 00:06:14,870
+in terms of the value.
+
+99
+00:06:14,870 --> 00:06:20,470
+Now, do you guys remember how a couple of days ago, I made a video talking about OpenAI and
+
+100
+00:06:20,470 --> 00:06:25,390
+how they were working on several related agent research projects, and basically the fact
+
+101
+00:06:25,390 --> 00:06:31,070
+that with these research projects, apparently there is one nearest completion that is going
+
+102
+00:06:31,070 --> 00:06:35,710
+to be a general purpose tool that executes tasks in a web browser.
+
+103
+00:06:35,710 --> 00:06:39,830
+So I think this is going to be something that is super, super fascinating because as you
+
+104
+00:06:39,830 --> 00:06:46,230
+all know, agent is something that everyone is really eager to use, especially since we've
+
+105
+00:06:46,230 --> 00:06:49,550
+been teased by some armament stating that this is the next breakthrough.
+
+106
+00:06:49,710 --> 00:06:54,470
+Now, for those of you wondering about which date this is going to actually be available
+
+107
+00:06:54,470 --> 00:07:00,470
+in terms of the advanced AI agents and some kind of AI agents, we do know that OpenAI leadership
+
+108
+00:07:00,470 --> 00:07:05,710
+announced plans to release this tool in January as a research preview, and of course, through
+
+109
+00:07:05,710 --> 00:07:08,110
+the company's API for developers.
+
+110
+00:07:08,110 --> 00:07:13,910
+So it seems like during the January time, we're probably going to get a lot more AI agent demos
+
+111
+00:07:13,910 --> 00:07:18,630
+from potentially a lot of developers, and we're going to be able to see what these kinds
+
+112
+00:07:18,630 --> 00:07:22,150
+of tools are able to do when not restricted to OpenAI scope.
+
+113
+00:07:22,150 --> 00:07:27,590
+And the reason that that is really important is because developers take products and essentially
+
+114
+00:07:27,590 --> 00:07:32,310
+build on them in a way that is completely different that the initial creator didn't intend
+
+115
+00:07:32,310 --> 00:07:37,190
+to like, there are a variety of different consumer applications and consumer products out there
+
+116
+00:07:37,190 --> 00:07:41,430
+that the creators of chat GPT just couldn't have fathomed themselves.
+
+117
+00:07:41,430 --> 00:07:47,110
+So it'll be really interesting to see what developers managed to do in January, and also
+
+118
+00:07:47,110 --> 00:07:53,870
+what I'm really excited for is OpenAI's computer agent because it was also very recently that
+
+119
+00:07:53,870 --> 00:07:58,150
+they announced they were going to be working on an agent called the operator.
+
+120
+00:07:58,150 --> 00:08:03,070
+So I'm actually wondering what kind of things this agent is going to be able to do.
+
+121
+00:08:03,070 --> 00:08:06,790
+And I will definitely be experimenting with the Claude computer use to be able to see if
+
+122
+00:08:06,790 --> 00:08:11,790
+I can get as much as I can out of that agent as possible so that when the OpenAI agent rolls
+
+123
+00:08:11,790 --> 00:08:15,590
+around, I'll be able to use that one as much as possible.
+
+124
+00:08:15,590 --> 00:08:17,110
+So with that being said, if you guys...
